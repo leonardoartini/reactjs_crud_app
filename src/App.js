@@ -6,14 +6,18 @@ import "./App.css";
 import AddTutorial from "./components/add-tutorial.component";
 import Tutorial from "./components/tutorial.component";
 import TutorialsList from "./components/tutorials-list.component";
+import logo from './logo.png';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <nav className="navbar navbar-expand navbar-custom">
           <Link to={"/tutorials"} className="navbar-brand">
-            bezKoder
+          <img
+            src={logo}
+            height="80px"
+          />
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">

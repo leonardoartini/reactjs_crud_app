@@ -13,3 +13,11 @@
   max-width: 300px;
   margin: auto;
 }
+
+.navbar-custom {
+  background-color: #5a768a;
+}
+
+.nav-link {
+  color: white;
+}
